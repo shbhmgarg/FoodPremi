@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vishal.vneedfood">
+
+    <user-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogoutActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:noHistory="true" />
+
+        <activity android:name=".CoverActivity" />
+        <activity android:name=".Chinese" />
+        <activity android:name=".menu" />
+        <activity android:name=".mess" />
+        <activity android:name=".Messfood" />
+        <activity
+            android:name=".description"
+            android:noHistory="true" />
+        <activity android:name=".Chineseroom" />
+        <activity android:name=".Amigos" />
+        <activity android:name=".Cafemomieos" />
+        <activity android:name=".Mumbaidarbar" />
+        <activity android:name=".Indianfood" />
+        <activity android:name=".Katthi" />
+        <activity android:name=".HotelSR" />
+        <activity android:name=".Charung" />
+        <activity android:name=".spinner" />
+        <activity android:name=".spinner1" />
+        <activity android:name=".spinner2" />
+        <activity android:name=".blank"></activity>
+    </application>
+
+</manifest>

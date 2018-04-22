@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FoodPremi</string>
+
+    <string-array name="Colleges">
+        <item>Choose your College...</item>
+        <item>BVP</item>
+        <item>SINGHAD</item>
+        <item>MIT</item>
+    </string-array>>
+
+</resources>
